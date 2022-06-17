@@ -1,0 +1,1 @@
+EMIF=D[15..0],BA0,BA1,R\A\S\,C\A\S\,SDKE,CLK,W\E\,RNW,C\S\0\,C\S\2\,WAIT,O\E\,A[19..0]

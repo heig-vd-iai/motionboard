@@ -1,0 +1,45 @@
+# Memory - master
+---
+
+modes:
+  homing:
+  position:
+  interpolated:
+  velocity:
+  torque:
+
+state-machine:
+  - Not Ready to Switch On
+  - Switch On Disabled
+  - Ready to Switch On
+  - Switched On
+  - Operation Enable
+  - Quick Stop Active
+  - Fault
+  - Fault Reaction Active
+errors:
+  0000: No Error
+  1000: Generic Error
+  2000:
+    2100: Current on device input side
+    2110: Short circuit/earth leakage
+    2130: Short circuit
+    2200: Internal current
+    2211: Internal current No1
+    2212: Internal current No2
+  3000: Voltage
+    3110: Main over voltage
+    3111: Main over-voltage U
+    3112: Main over-voltage V
+    3113: Main over-voltage W
+    3120: Main under voltage
+    3121: Main under-voltage U
+    3122: Main under-voltage V
+    3123: Main under-voltage W
+
+objects:
+  1000: Device Type
+  1008: Manufacturer device name
+  1009: Manufacturer hardware version
+  100a: Manufacturer software version
+  1001: Error register
