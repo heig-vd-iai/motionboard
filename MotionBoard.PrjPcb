@@ -131,7 +131,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HTSAFVWQ
 
 [Document6]
 DocumentPath=kalios.PvLib
@@ -165,7 +165,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UJNXOSWN
 
 [Document8]
 DocumentPath=inverter.SchDoc
@@ -174,7 +174,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=18
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -710,6 +710,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIAYHZOP
+
+[Document40]
+DocumentPath=driver.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=19
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WTLEFHSE
+
+[Document41]
+DocumentPath=driver-phase.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=20
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QUMRJJFJ
+
+[Document42]
+DocumentPath=dsp-supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=21
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OHLSBNBR
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MotionBoard\Design Rule Check - MotionBoard.html
@@ -1764,14 +1815,14 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=kalios.SchLib
-ComponentDesignItemID0=IS61WV25616BLL-10BLI
-ComponentSymbolReference0=IS61WV25616BLL-10BLI
+ComponentDesignItemID0=OPA357A
+ComponentSymbolReference0=OPA357A
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=kalios.SchLib
-ComponentDesignItemID1=L
-ComponentSymbolReference1=L
+ComponentDesignItemID1=RELAY/IM26GR
+ComponentSymbolReference1=RELAY/IM26GR
 ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 FullReplace=1
@@ -1793,21 +1844,24 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Isat
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Parameter 1
 ParameterUpdate4=1
-ParameterName5=Supplier 1
+ParameterName5=SR
 ParameterUpdate5=1
-ParameterName6=Supplier Part Number 1
+ParameterName6=Supplier 1
 ParameterUpdate6=1
-ParameterName7=Value
+ParameterName7=Supplier Part Number 1
 ParameterUpdate7=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SM/L0805
+ModelName0=IM26GR
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=SOT23-6
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1816,8 +1870,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [ToDoManager]
-ProjectToDo1=Name=Change the GAN transistor for MOSFET transistor. Still 2 paired in a single case. MTN help to choose replacement part. Min 5A continuous, 20A peak. MTN propose the RQ3P300BHTB1.|Owner=PZO|Category=inverter|UID=TMWDTTOB
-ProjectToDo2=Name=Change the gate driver to match to the new MOSFET transistor.|Owner=PZO|Category=inverter|UID=CKTTRMDJ
+ProjectToDo1=Name=Change the GAN transistor for MOSFET transistor. Still 2 paired in a single case. MTN help to choose replacement part. Min 5A continuous, 20A peak. MTN propose the RQ3P300BHTB1.|State=1|Owner=PZO|Category=inverter|UID=TMWDTTOB
+ProjectToDo2=Name=Change the gate driver to match to the new MOSFET transistor.|State=1|Owner=PZO|Category=inverter|UID=CKTTRMDJ
 ProjectToDo3=Name=Check the design and the choice of the INA240A1 to measure the current in the phase of the motor.|Owner=PZO|Category=inverter|UID=RJIUEDSB
 ProjectToDo4=Name=Add a LC filter between the MOSFET transistor and the shunt 2mOhm to minimize the current spikes. See with MTN to design this filter. See what Meccad and ISMECA have done.|Owner=PZO|Category=inverter|UID=MYLGLCRG
 ProjectToDo5=Name=Check the snubbing capacitors, check design and part choice and total capacity. See with MTN for choice. Must be rated for at least 100V|Owner=PZO|Category=inverter|UID=CKHYKWDS
