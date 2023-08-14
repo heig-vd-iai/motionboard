@@ -762,6 +762,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHLSBNBR
 
+[Document43]
+DocumentPath=driver.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MotionBoard\Design Rule Check - MotionBoard.html
 DItemRevisionGUID=
@@ -1872,7 +1889,7 @@ PartTypes=0
 [ToDoManager]
 ProjectToDo1=Name=Change the GAN transistor for MOSFET transistor. Still 2 paired in a single case. MTN help to choose replacement part. Min 5A continuous, 20A peak. MTN propose the RQ3P300BHTB1.|State=1|Owner=PZO|Category=inverter|UID=TMWDTTOB
 ProjectToDo2=Name=Change the gate driver to match to the new MOSFET transistor.|State=1|Owner=PZO|Category=inverter|UID=CKTTRMDJ
-ProjectToDo3=Name=Check the design and the choice of the INA240A1 to measure the current in the phase of the motor.|Owner=PZO|Category=inverter|UID=RJIUEDSB
+ProjectToDo3=Name=Check the design and the choice of the INA240A1 to measure the current in the phase of the motor.|State=1|Owner=PZO|Category=inverter|UID=RJIUEDSB
 ProjectToDo4=Name=Add a LC filter between the MOSFET transistor and the shunt 2mOhm to minimize the current spikes. See with MTN to design this filter. See what Meccad and ISMECA have done.|Owner=PZO|Category=inverter|UID=MYLGLCRG
 ProjectToDo5=Name=Check the snubbing capacitors, check design and part choice and total capacity. See with MTN for choice. Must be rated for at least 100V|Owner=PZO|Category=inverter|UID=CKHYKWDS
 ProjectToDo6=Name=Add protections on all used pins. Some are directly connected to CPU.|Owner=PZO|Category=sdcard|UID=AKRJQKPU
