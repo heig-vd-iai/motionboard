@@ -1907,8 +1907,8 @@ ProjectToDo5=Name=Check the snubbing capacitors, check design and part choice an
 ProjectToDo6=Name=Add protections on all used pins. Some are directly connected to CPU.|Owner=PZO|Category=sdcard|UID=AKRJQKPU
 ProjectToDo7=Name=Check the protections of the USB connector. Not all lines are protected.|Owner=PZO|Category=usb|UID=OGWEFVYG
 ProjectToDo8=Name=Add the NetClass with the specifications|Owner=PZO|Category=general|UID=RDKCLEMM
-ProjectToDo9=Name=Remove the relay RL1 and replace it by a micro switch to select the good configuration|Owner=PZO|Category=analog-encoder|UID=ILPSGGHP
-ProjectToDo10=Name=Must re-draw the symbol of the TMS320F28388DZWTS to set the function of each pin and select the one used in the system => better understanding of the use and behaviour.|Owner=PZO|Category=dsp|UID=AWBOLIGQ
+ProjectToDo9=Name=Remove the relay RL1 and replace it by a micro switch to select the good configuration|State=1|Owner=PZO|Category=analog-encoder|UID=ILPSGGHP
+ProjectToDo10=Name=Must re-draw the symbol of the TMS320F28388DZWTS to set the function of each pin and select the one used in the system => better understanding of the use and behaviour.|State=1|Owner=PZO|Category=dsp|UID=AWBOLIGQ
 ProjectToDo11=Name=Clarify the direction of DIN and DOUT and check with the datasheet of MAX13431. Ask to YCR how the harness is defined|Owner=PZO|Category=digital-encoder|UID=VDOSUIAS
 ProjectToDo12=Name=Replace the sheet "inverter" by the sheets "driver" and "driver-phase" to use the multichannel at its best. "driver" will contains the snubbers and the OVC protections, and the 3 block sheet of "driver-phase". "driver-phase" will contains the IC driver, the half bridge, the LC filter, the I and U measure|State=1|Owner=PZO|Category=inverter|UID=QBNFCNKL
 ProjectToDo13=Name=Could be useful to be able to cut-off the encoder power supply +5VENC at will (boot sequence, sensor reset, etc)|Owner=PZO|Category=analog-encoder|UID=CHTOKQHU
@@ -1920,43 +1920,51 @@ ProjectToDo18=Name=Fix the resistor divider of U16.19 (CTL) because it will not 
 
 [NetInfos]
 Net1=NetName=+1.2V|NetColor=$0080FFFF
-Net2=NetName=+2.5VREF|NetColor=$00C1D672
-Net3=NetName=+3.3V|NetColor=$000083FD
-Net4=NetName=+3.3VA|NetColor=$0061D5FF
-Net5=NetName=+3.3VOSC|NetColor=$0061D5FF
-Net6=NetName=+5V|NetColor=$00220EEE
-Net7=NetName=+VCORE|NetColor=$0078EAFF
-Net8=NetName=+VDDIO|NetColor=$00007EC5
-Net9=NetName=+VLO|NetColor=$006E6EFF
-Net10=NetName=NetC14_2|NetColor=$006A00A1
-Net11=NetName=NetC14_Designator1_2|NetColor=$006A00A1
-Net12=NetName=NetC14_Designator2_2|NetColor=$006A00A1
-Net13=NetName=NetJ2_1|NetColor=$006E6EFF
-Net14=NetName=NetJ3_1|NetColor=$00928E91
-Net15=NetName=NetJ3_2|NetColor=$00928E91
-Net16=NetName=NetJ3_3|NetColor=$00928E91
-Net17=NetName=NetJ8_1|NetColor=$00928E91
-Net18=NetName=NetJ8_2|NetColor=$00928E91
-Net19=NetName=NetJ8_3|NetColor=$00928E91
-Net20=NetName=NetQ1_Designator1_SW|NetColor=$00928E91
-Net21=NetName=NetQ1_Designator2_SW|NetColor=$00928E91
-Net22=NetName=NetQ1_SW|NetColor=$00928E91
-Net23=NetName=NetQ2_Designator1_GND|NetColor=$00B2B5BE
-Net24=NetName=NetQ2_Designator1_SW|NetColor=$00928E91
-Net25=NetName=NetQ2_Designator2_GND|NetColor=$00B2B5BE
-Net26=NetName=NetQ2_Designator2_SW|NetColor=$00928E91
-Net27=NetName=NetQ2_GND|NetColor=$00B2B5BE
-Net28=NetName=NetQ2_SW|NetColor=$00928E91
-Net29=NetName=U|NetColor=$00928E91
-Net30=NetName=U_Designator1|NetColor=$00928E91
-Net31=NetName=U_Designator2|NetColor=$00928E91
-Net32=NetName=V|NetColor=$00928E91
-Net33=NetName=V_Designator1|NetColor=$00928E91
-Net34=NetName=V_Designator2|NetColor=$00928E91
-Net35=NetName=VBUS|NetColor=$006A00A1
-Net36=NetName=W|NetColor=$00928E91
-Net37=NetName=W_Designator1|NetColor=$00928E91
-Net38=NetName=W_Designator2|NetColor=$00928E91
+Net2=NetName=+12V|NetColor=$005426D6
+Net3=NetName=+12VA|NetColor=$005426D6
+Net4=NetName=+12VB|NetColor=$005426D6
+Net5=NetName=+12VC|NetColor=$005426D6
+Net6=NetName=+12VD|NetColor=$005426D6
+Net7=NetName=+12VE|NetColor=$005426D6
+Net8=NetName=+12VF|NetColor=$005426D6
+Net9=NetName=+2.5VREF|NetColor=$00C1D672
+Net10=NetName=+3.3V|NetColor=$000083FD
+Net11=NetName=+3.3VA|NetColor=$0061D5FF
+Net12=NetName=+3.3VOSC|NetColor=$0061D5FF
+Net13=NetName=+5V|NetColor=$00220EEE
+Net14=NetName=+VCORE|NetColor=$0078EAFF
+Net15=NetName=+VDDIO|NetColor=$00007EC5
+Net16=NetName=+VLO|NetColor=$006E6EFF
+Net17=NetName=MON-12V|NetColor=$005426D6
+Net18=NetName=NetC14_2|NetColor=$006A00A1
+Net19=NetName=NetC14_Designator1_2|NetColor=$006A00A1
+Net20=NetName=NetC14_Designator2_2|NetColor=$006A00A1
+Net21=NetName=NetJ2_1|NetColor=$006E6EFF
+Net22=NetName=NetJ3_1|NetColor=$00928E91
+Net23=NetName=NetJ3_2|NetColor=$00928E91
+Net24=NetName=NetJ3_3|NetColor=$00928E91
+Net25=NetName=NetJ8_1|NetColor=$00928E91
+Net26=NetName=NetJ8_2|NetColor=$00928E91
+Net27=NetName=NetJ8_3|NetColor=$00928E91
+Net28=NetName=NetQ1_Designator1_SW|NetColor=$00928E91
+Net29=NetName=NetQ1_Designator2_SW|NetColor=$00928E91
+Net30=NetName=NetQ1_SW|NetColor=$00928E91
+Net31=NetName=NetQ2_Designator1_GND|NetColor=$00B2B5BE
+Net32=NetName=NetQ2_Designator1_SW|NetColor=$00928E91
+Net33=NetName=NetQ2_Designator2_GND|NetColor=$00B2B5BE
+Net34=NetName=NetQ2_Designator2_SW|NetColor=$00928E91
+Net35=NetName=NetQ2_GND|NetColor=$00B2B5BE
+Net36=NetName=NetQ2_SW|NetColor=$00928E91
+Net37=NetName=U|NetColor=$00928E91
+Net38=NetName=U_Designator1|NetColor=$00928E91
+Net39=NetName=U_Designator2|NetColor=$00928E91
+Net40=NetName=V|NetColor=$00928E91
+Net41=NetName=V_Designator1|NetColor=$00928E91
+Net42=NetName=V_Designator2|NetColor=$00928E91
+Net43=NetName=VBUS|NetColor=$006A00A1
+Net44=NetName=W|NetColor=$00928E91
+Net45=NetName=W_Designator1|NetColor=$00928E91
+Net46=NetName=W_Designator2|NetColor=$00928E91
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
