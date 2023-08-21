@@ -796,6 +796,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OSCNEIXU
 
+[Document45]
+DocumentPath=dac.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=23
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GLWXBEQR
+
+[Document46]
+DocumentPath=dac.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MotionBoard\Design Rule Check - MotionBoard.html
 DItemRevisionGUID=
@@ -1917,6 +1951,8 @@ ProjectToDo15=Name=Add CM4 support. 2 fine pitch board to board connector. See C
 ProjectToDo16=Name=Move DSP sub-part A from sheet "psu" to a new sheet ("supply") under the sheet "dsp" because it is not a power supply.|State=1|Owner=PZO|Category=psu|UID=XNFISQTP
 ProjectToDo17=Name=Add a new 12V power supply for the driver stage to supply the MOSFET driver.|State=1|Owner=PZO|Category=psu|UID=ORDRTHAY
 ProjectToDo18=Name=Fix the resistor divider of U16.19 (CTL) because it will not boot before VBUS = 15V!|Owner=PZO|Category=psu|UID=NEWVCMSA
+ProjectToDo19=Name=Add a DAC to replace the use of internal DAC|State=1|Owner=PZO|Category=adc|UID=DATOOFSP
+ProjectToDo20=Name=Fix libraries weakness : Design Item ID not unique, multiple libraries, missing referenced footprints (canard).|Owner=PZO|Category=general|UID=RGKOMOHY
 
 [NetInfos]
 Net1=NetName=+1.2V|NetColor=$0080FFFF
