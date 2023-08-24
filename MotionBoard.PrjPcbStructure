@@ -23,5 +23,4 @@ Record=SheetSymbol|SourceDocument=dsp.SchDoc|Designator=U_jtag|SchDesignator=U_j
 Record=SheetSymbol|SourceDocument=driver.SchDoc|Designator=driver-phase_u|SchDesignator=driver-phase_u|FileName=driver-phase.SchDoc|SheetNumber=20|SymbolType=Normal|RawFileName=driver-phase.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=driver.SchDoc|Designator=driver-phase_v|SchDesignator=driver-phase_v|FileName=driver-phase.SchDoc|SheetNumber=20|SymbolType=Normal|RawFileName=driver-phase.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=driver.SchDoc|Designator=driver-phase_w|SchDesignator=driver-phase_w|FileName=driver-phase.SchDoc|SheetNumber=20|SymbolType=Normal|RawFileName=driver-phase.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=main.SchDoc|FileName=inverter.SchDoc|SheetNumber=22
 Record=NoMainPathDocument|SourceDocument=main.SchDoc|FileName=overview.SchDoc|SheetNumber=1
