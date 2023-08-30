@@ -845,24 +845,24 @@ DocumentPath=..\..\..\..\..\canard\AppData\Local\Temp\QjzBD9F.xls
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=0.1.0
+Name=Author
+Value=Prof. Yves Chevallier
 
 [Parameter2]
-Name=SVN
-Value=GIT
+Name=NoProject
+Value=377481
 
 [Parameter3]
 Name=ProjectTitle
 Value=MotionBoard Columbi
 
 [Parameter4]
-Name=NoProject
-Value=377481
+Name=SVN
+Value=GIT
 
 [Parameter5]
-Name=Author
-Value=Prof. Yves Chevallier
+Name=Version
+Value=0.1.0
 
 [Configuration1]
 Name=Sources
@@ -3567,7 +3567,7 @@ ProjectToDo3=Name=Check the design and the choice of the INA240A1 to measure the
 ProjectToDo4=Name=Add a LC filter between the MOSFET transistor and the shunt 2mOhm to minimize the current spikes. See with MTN to design this filter. See what Meccad and ISMECA have done.|Priority=3|State=1|Owner=PZO|Category=inverter|UID=MYLGLCRG
 ProjectToDo5=Name=Check the snubbing capacitors, check design and part choice and total capacity. See with MTN for choice. Must be rated for at least 100V|Priority=3|Owner=PZO|Category=inverter|UID=CKHYKWDS
 ProjectToDo6=Name=Add protections on all used pins. Some are directly connected to CPU.|Owner=PZO|Category=sdcard|UID=AKRJQKPU
-ProjectToDo7=Name=Check the protections of the USB connector. Not all lines are protected.|Owner=PZO|Category=usb|UID=OGWEFVYG
+ProjectToDo7=Name=Check the protections of the USB connector. Not all lines are protected.|State=1|Owner=PZO|Category=usb|UID=OGWEFVYG
 ProjectToDo8=Name=Add the NetClass with the specifications|Owner=PZO|Category=general|UID=RDKCLEMM
 ProjectToDo9=Name=Remove the relay RL1 and replace it by a micro switch to select the good configuration|Priority=3|State=1|Owner=PZO|Category=analog-encoder|UID=ILPSGGHP
 ProjectToDo10=Name=Must re-draw the symbol of the TMS320F28388DZWTS to set the function of each pin and select the one used in the system => better understanding of the use and behaviour.|State=1|Owner=PZO|Category=dsp|UID=AWBOLIGQ
