@@ -729,40 +729,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OSCNEIXU
 
 [Document41]
-DocumentPath=dac.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=23
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GLWXBEQR
-
-[Document42]
-DocumentPath=dac.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document43]
 DocumentPath=motionboard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -779,7 +745,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQVPSUHU
 
-[Document44]
+[Document42]
 DocumentPath=motionboard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -795,6 +761,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWSYUHXZ
+
+[Document43]
+DocumentPath=driver-phase-i-u-measure.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CHDBDUOU
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MotionBoard\Design Rule Check - MotionBoard.html
@@ -1470,6 +1453,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1603,6 +1616,7 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
 
 [Difference Levels]
 Type1=1
@@ -1673,6 +1687,7 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1801,6 +1816,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -3578,7 +3617,7 @@ ProjectToDo14=Name=Could be useful to be able to cut-off the encoder power suppl
 ProjectToDo15=Name=Add CM4 support. 2 fine pitch board to board connector. See CM4 IO Board and . Interconnected with DSP. No communication specifications defined.|Priority=3|Owner=PZO|Category=new feature|UID=ITPFUCBG
 ProjectToDo16=Name=Move DSP sub-part A from sheet "psu" to a new sheet ("supply") under the sheet "dsp" because it is not a power supply.|State=1|Owner=PZO|Category=psu|UID=XNFISQTP
 ProjectToDo17=Name=Add a new 12V power supply for the driver stage to supply the MOSFET driver.|Priority=3|State=1|Owner=PZO|Category=psu|UID=ORDRTHAY
-ProjectToDo18=Name=Fix the resistor divider of U16.19 (CTL) because it will not boot before VBUS = 15V!|Owner=PZO|Category=psu|UID=NEWVCMSA
+ProjectToDo18=Name=Fix the resistor divider of U16.19 (CTL) because to boot at 14V|Owner=PZO|Category=psu|UID=NEWVCMSA
 ProjectToDo19=Name=Add a DAC to replace the use of internal DAC|State=1|Owner=PZO|Category=adc|UID=DATOOFSP
 ProjectToDo20=Name=Fix libraries weakness : Design Item ID not unique, multiple libraries, missing referenced footprints (canard).|State=1|Owner=PZO|Category=general|UID=RGKOMOHY
 ProjectToDo21=Name=Ask about the pinout of J9 and J14 how to assign the pin because there is a problem with the position on GND.|Priority=3|Owner=PZO|Category=main|UID=RWTCVLGO
