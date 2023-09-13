@@ -3610,7 +3610,7 @@ ProjectToDo7=Name=Check the protections of the USB connector. Not all lines are 
 ProjectToDo8=Name=Add the NetClass with the specifications|Owner=PZO|Category=general|UID=RDKCLEMM
 ProjectToDo9=Name=Remove the relay RL1 and replace it by a micro switch to select the good configuration|Priority=3|State=1|Owner=PZO|Category=analog-encoder|UID=ILPSGGHP
 ProjectToDo10=Name=Must re-draw the symbol of the TMS320F28388DZWTS to set the function of each pin and select the one used in the system => better understanding of the use and behaviour.|State=1|Owner=PZO|Category=dsp|UID=AWBOLIGQ
-ProjectToDo11=Name=Clarify the direction of DIN and DOUT and check with the datasheet of MAX13431. Ask to YCR how the harness is defined|Owner=PZO|Category=digital-encoder|UID=VDOSUIAS
+ProjectToDo11=Name=Clarify the direction of DIN and DOUT and check with the datasheet of MAX13431.  DOUT means DOUT of the TMS, same for DIN.|State=1|Owner=PZO|Category=digital-encoder|UID=VDOSUIAS
 ProjectToDo12=Name=Replace the sheet "inverter" by the sheets "driver" and "driver-phase" to use the multichannel at its best. "driver" will contains the snubbers and the OVC protections, and the 3 block sheet of "driver-phase". "driver-phase" will contains the IC driver, the half bridge, the LC filter, the I and U measure|State=1|Owner=PZO|Category=inverter|UID=QBNFCNKL
 ProjectToDo13=Name=Could be useful to be able to cut-off the encoder power supply +5VENC at will (boot sequence, sensor reset, etc)|Owner=PZO|Category=analog-encoder|UID=CHTOKQHU
 ProjectToDo14=Name=Could be useful to be able to cut-off the encoder power supply +5VENC at will (boot sequence, sensor reset, etc)|Owner=PZO|Category=digital-encoder|UID=UUCLRINO
