@@ -644,7 +644,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MIAYHZOP
 
 [Document36]
-DocumentPath=driver.SchDoc
+DocumentPath=inverter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -661,23 +661,6 @@ GenerateClassCluster=0
 DocumentUniqueId=WTLEFHSE
 
 [Document37]
-DocumentPath=driver-phase.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=20
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QUMRJJFJ
-
-[Document38]
 DocumentPath=dsp-supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -694,24 +677,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHLSBNBR
 
-[Document39]
-DocumentPath=driver.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document40]
+[Document38]
 DocumentPath=motionboard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -728,7 +694,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQVPSUHU
 
-[Document41]
+[Document39]
 DocumentPath=motionboard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -745,24 +711,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWSYUHXZ
 
-[Document42]
-DocumentPath=driver-phase-i-u-measure.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CHDBDUOU
-
-[Document43]
+[Document40]
 DocumentPath=cm4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -779,7 +728,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OSCNEIXV
 
-[Document44]
+[Document41]
 DocumentPath=cm4.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -795,6 +744,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document42]
+DocumentPath=..\Dropbox\work\eda\altium\Library\kalios.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJNXOSWN
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MotionBoard\Design Rule Check - MotionBoard.html
