@@ -508,23 +508,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=jtag.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=16
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PTOSETGF
-
-[Document29]
 DocumentPath=pcb-view.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +524,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVWWCMCN
 
-[Document30]
+[Document29]
 DocumentPath=pcb-assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +541,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NRJMEMMT
 
-[Document31]
+[Document30]
 DocumentPath=pcb-layer-stack.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +558,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UUGFVNEB
 
-[Document32]
+[Document31]
 DocumentPath=pcb-realistic-view.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +575,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PGXTUBFU
 
-[Document33]
+[Document32]
 DocumentPath=cm4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,7 +592,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OSCNEIXV
 
-[Document34]
+[Document33]
 DocumentPath=mechanical.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,7 +609,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIAYHZOP
 
-[Document35]
+[Document34]
 DocumentPath=dsp-supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,7 +626,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHLSBNBR
 
-[Document36]
+[Document35]
 DocumentPath=motionboard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -660,7 +643,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQVPSUHU
 
-[Document37]
+[Document36]
 DocumentPath=motionboard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -677,7 +660,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWSYUHXZ
 
-[Document38]
+[Document37]
 DocumentPath=..\Dropbox\work\eda\altium\Library\kalios.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -694,7 +677,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJNXOSWN
 
-[Document39]
+[Document38]
 DocumentPath=digital-encoder.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -711,7 +694,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document39]
 DocumentPath=analog-encoder.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -728,7 +711,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document40]
 DocumentPath=cm4.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
