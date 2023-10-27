@@ -1824,9 +1824,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=motionboard.SchLib
-ComponentDesignItemID0=INA241A2IDDFR
-ComponentSymbolReference0=INA241A2IDDFR
+ComponentLibraryIdentifier0=kalios.SchLib
+ComponentDesignItemID0=Source/Voltage
+ComponentSymbolReference0=Source/Voltage
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1848,19 +1848,10 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Gain
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Supplier 1
 ParameterUpdate4=1
-ParameterName5=Supplier 1
-ParameterUpdate5=1
-ParameterName6=Supplier Part Number 1
-ParameterUpdate6=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=SOT65P280X110-8N
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -3558,6 +3549,26 @@ ProjectToDo18=Name=Fix the resistor divider of U16.19 (CTL) because to boot at 1
 ProjectToDo19=Name=Add a DAC to replace the use of internal DAC|State=1|Owner=PZO|Category=adc|UID=DATOOFSP
 ProjectToDo20=Name=Fix libraries weakness : Design Item ID not unique, multiple libraries, missing referenced footprints (canard).|State=1|Owner=PZO|Category=general|UID=RGKOMOHY
 ProjectToDo21=Name=Ask about the pinout of J9 and J14 how to assign the pin because there is a problem with the position on GND.|Priority=3|Owner=PZO|Category=main|UID=RWTCVLGO
+
+[NetInfos]
+Net1=NetName=+12V|NetColor=clYellow
+Net2=NetName=+12VA|NetColor=clYellow
+Net3=NetName=+12VB|NetColor=clYellow
+Net4=NetName=+3.3V|NetColor=$00328ACE
+Net5=NetName=+3.3VA|NetColor=$00328ACE
+Net6=NetName=+3.3VB|NetColor=$00328ACE
+Net7=NetName=+5V|NetColor=$002734D9
+Net8=NetName=+5VA|NetColor=$002734D9
+Net9=NetName=+5VB|NetColor=$002734D9
+Net10=NetName=+5VUSB|NetColor=$006060F2
+Net11=NetName=+VBUS|NetColor=$00BC44A4
+Net12=NetName=MON-12V|NetColor=clYellow
+Net13=NetName=MON-3.3V|NetColor=$00328ACE
+Net14=NetName=MON-5V|NetColor=$002734D9
+Net15=NetName=VBUS|NetColor=$00BC44A4
+Net16=NetName=VBUSA|NetColor=$00BC44A4
+Net17=NetName=VBUSB|NetColor=$00BC44A4
+Net18=NetName=VIN|NetColor=$00BC44A4
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
