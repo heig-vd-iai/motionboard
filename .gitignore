@@ -2,3 +2,6 @@ Project Logs*/
 Project Outputs*/
 History/
 __Previews/
+*.log
+*.raw
+*.html
