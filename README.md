@@ -69,3 +69,56 @@ B2 | ✓ | ✓ | ✓ |
 ### Storage
 
 A Micro-SD card in SPI mode is supported. The SDCard is primarly used to store the HTTP SPA commissionning tool.
+
+### Other
+
+UART is 45 Mbps
+SPI is 250 MHz
+
+
+
+USB
+SSI
+CM-UART
+
+
+Sur ma carte !
+
+CM-I2C et non I2C !
+CAN-FD et non CAN !
+
+FIFO 16-bit x 8
+datasize 16 bits max
+
+CM Operating at 125 MHz
+
+12x TC CMCLK ? 10 Mbps?
+
+CM-UART : 15.625 Mbps
+CM-SSI : SPI Mode
+USB Virtual com port ?
+Ethernet : 100 MBit / ??
+CM-I2C 1Mbps
+
+TPIU usage ? Useful in our application?
+
+
+§6.5.5 High-speed SPI Pin Muxing !
+§6.5.6 High-speed SSI Pin Muxing
+
+
+Crystal 20MHz ESR 45, time ppm <
+
+
+C145
+C283 10p
+
+
+
+
+0 1
+31 32
+104 105
+
+
+- FSI ?
