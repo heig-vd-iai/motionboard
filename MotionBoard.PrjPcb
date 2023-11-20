@@ -32,13 +32,14 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
+CrossRefSheetStyle=0
+CrossRefLocationStyle=0
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
@@ -769,7 +770,7 @@ DocumentPath=Project Outputs for MotionBoard\Report Board Stack\MotionBoard.xls
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=C:\Users\YVESCH~1\AppData\Local\Temp\Qjz5E63.xls
+DocumentPath=..\..\..\..\..\YVESCH~1\AppData\Local\Temp\Qjz5E63.xls
 DItemRevisionGUID=
 
 [GeneratedDocument12]
@@ -1549,6 +1550,12 @@ Type127=1
 Type128=1
 Type129=1
 Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1746,6 +1753,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
