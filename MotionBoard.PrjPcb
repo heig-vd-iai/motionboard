@@ -32,14 +32,13 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=0
-CrossRefLocationStyle=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
@@ -577,23 +576,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PGXTUBFU
 
 [Document32]
-DocumentPath=cm4.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=22
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OSCNEIXV
-
-[Document33]
 DocumentPath=mechanical.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -610,7 +592,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIAYHZOP
 
-[Document34]
+[Document33]
 DocumentPath=dsp-supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -627,7 +609,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHLSBNBR
 
-[Document35]
+[Document34]
 DocumentPath=motionboard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -644,7 +626,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQVPSUHU
 
-[Document36]
+[Document35]
 DocumentPath=motionboard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -661,7 +643,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWSYUHXZ
 
-[Document37]
+[Document36]
 DocumentPath=..\Dropbox\work\eda\altium\Library\kalios.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -678,7 +660,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJNXOSWN
 
-[Document38]
+[Document37]
 DocumentPath=digital-encoder.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -695,25 +677,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document38]
 DocumentPath=analog-encoder.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document40]
-DocumentPath=cm4.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -770,7 +735,7 @@ DocumentPath=Project Outputs for MotionBoard\Report Board Stack\MotionBoard.xls
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=..\..\..\..\..\YVESCH~1\AppData\Local\Temp\Qjz5E63.xls
+DocumentPath=..\YVESCH~1\AppData\Local\Temp\Qjz5E63.xls
 DItemRevisionGUID=
 
 [GeneratedDocument12]
@@ -1550,12 +1515,6 @@ Type127=1
 Type128=1
 Type129=1
 Type130=1
-Type131=1
-Type132=1
-Type133=1
-Type134=1
-Type135=1
-Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1753,7 +1712,6 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
